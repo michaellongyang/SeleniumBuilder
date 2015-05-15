@@ -6,17 +6,18 @@ A test development environment for Selenium 1 and 2
 
 ## Install
 
-  * An XPI for the latest release version is available from http://www.saucelabs.com/addons/selenium-builder-latest.xpi
-  * Instructions for installing the development version - https://github.com/sebuilder/se-builder/wiki/Contribution-Notes
+Development Setup
+First, clone or download the .zip file of this repo.
 
-## Resources
+Next, you will want to tell Firefox to treat this repo as an installed extension. The benefit of this is that you can make changes to Builder, and they will be available upon restarting Firefox. There is no need to recreate an XPI each time.
 
-  * Splash Site - http://sebuilder.com
-  * GitHub - http://github.com/sebuilder/se-builder
-  * Mailing list - https://groups.google.com/d/forum/se-builder
-  * Issues - https://github.com/sebuilder/se-builder/issues
-  * Development Resources - https://github.com/sebuilder/se-builder/wiki
-  * Plugins - http://sebuilder.github.com/se-builder/plugins.html
+To do this copy the seleniumbuilder@saucelabs.com folder.
+
+Then put this file into the "extensions" folder in your Firefox profile folder. You can find this profile folder by going to (for Mac OS) Firefox -> Help -> Troubleshooting Information -> Profile Folder -> Show in Finder. Then go in to find the extensions folder.
+
+Once you've restarted Firefox you should be prompted about whether you want to install Builder.
+
+It's also a good idea to create a separate Firefox profile for development purposes. This keeps your normal Firefox usage unaffected by development work.
 
 ## License
 
