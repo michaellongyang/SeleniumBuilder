@@ -7,6 +7,7 @@ A test development environment for Selenium 1 and 2
 ## Install
 
 Development Setup
+
 First, clone or download the .zip file of this repo.
 
 Next, you will want to tell Firefox to treat this repo as an installed extension. The benefit of this is that you can make changes to Builder, and they will be available upon restarting Firefox. There is no need to recreate an XPI each time.
