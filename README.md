@@ -14,7 +14,7 @@ Next, you will want to tell Firefox to treat this repo as an installed extension
 
 To do this copy the seleniumbuilder@saucelabs.com folder.
 
-Then put this file into the "extensions" folder in your Firefox profile folder. You can find this profile folder by going to (for Mac OS) Firefox -> Help -> Troubleshooting Information -> Profile Folder -> Show in Finder. Then go in to find the extensions folder.
+Then put this file into the "extensions" folder in your Firefox profile folder. You can find this profile folder by going to Firefox -> Help -> Troubleshooting Information -> Profile Folder -> Show in Finder/Show Folder. Then go in to find the extensions folder.
 
 Once you've restarted Firefox you should be prompted about whether you want to install Builder.
 
